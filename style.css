@@ -345,6 +345,7 @@ nav .fa-solid{
 @media only screen and (max-width:1400px){
      .nav{
           flex-direction:column;
+          height:50px;
      }
 
      .firstsection{
