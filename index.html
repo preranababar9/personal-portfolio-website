@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
+rel="stylesheet">
+
+     <title>Portfolio</title>
+
+</head>
+<body>
+     <header>
+          <div class="container">
+          <nav>
+                   <p>Prerana Babar</p>
+                    <ul id="sidemenu">
+                         <li><a href="#topsection">About</a></li>
+                         <li><a href="#education">Education</a></li>
+                         <li><a href="#skills">Skills</a></li>
+                         <li><a href="#project">Projects</a></li>
+                         <li><a href="/">Experience</a></li>
+                         <li><a href="#contact">Contact</a></li>
+                         <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+               </div>
+          </nav>
+     </header>
+
+     <main>
+          <section class="firstsection">
+               <div class="leftsection">
+                   <div>Hy, I'm <span class="purple">Prerana</span> Babar</div>
+                    <!--<div class="ls">Software Developer Enthusiast-->
+                         <span id="element"></span>
+               
+               </div>
+               <div class="rightsection">
+                    <img src="preb.png">
+               </div>
+          </section>
+
+          <section class="secondsection">
+               <div class="topsection" id="topsection">About</div>
+               <div class="bottomsection">
+                    Hello there!<br><br>
+                    <p>I am a passionate and driven IT engineering student from Usha Mittal 
+                    institute of technology, santacruz.</p>
+                    <p>Throughout my academic journey and projects, I have honed my skills in C++ 
+                    language. Additionally, my Python prowess has allowed me to explore 
+                    data analysis and machine learning.</p>
+                    <p>But that's not all! I have also delved into the realm of web development
+                    where I have become well-versed in HTML, CSS, and JavaScript.</p>
+                    <p>With a passion for technology and a solid foundation in programming,
+                    I am eager to tackle new challenges, solve complex problems, and 
+                    create a innovative solutions for real-world challenges.</p>
+
+                    <div class="tab-titles">
+                         <p class="tab-links active-link" id="skills"  onclick="opentab('Skills')">Skills</p>
+                         <p class="tab-links" id="education" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                         <ul>
+                              <li><span>C++</span><br>Software developement</li>
+                              <li><span>Python</span><br>Machine Learning</li>
+                              <li><span>html/css</span><br>Web development</li>
+                              <li><span>javascript</span><br>Frond-end development</li>
+                         
+                         </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                         <ul>
+                              <li><span>2024</span><br>BTech from Usha Mittal Institute of Technology</li>
+                              <li><span>2020</span><br>HSC from Ramnivas Ruia College</li>
+                              <li><span>2018</span><br>SSC from Abhuyudaya Education High School</li>
+                         
+                         </ul>
+                         </div>
+               </div><br><br>
+          </section>
+
+          <div class="thirdsection" id="project">
+               
+               <div class="topsection" >Projects</div>
+               <div class="project-lists">
+                    <div class="project">
+                         <img src="proj1.png">
+                         <div class="layer">
+                              <h3>Virtual Voice Assistant</h3>
+                              <p>Created an virtual voice assistant using python and its inbuild libraries.
+                                   Having functionality like date,time,opening web applications like google,youtube.
+                              </p>
+                              <a href="https://github.com/preranababar9/desktop-virtual-voice-assistant"> 
+                                   <i class="fa-brands fa-github"></i>
+                              </a><br><br>
+                              <p class="tag">#pthon #artifical intelligence</p>
+                         </div>
+                    </div>
+                    <div class="project">
+                         <img src="proj2.png">
+                         <div class="layer">
+                              <h3>Music Recommondation System</h3>
+                              <p>Implemented a music recommendation system using python and flet technology. Using 
+                                   Vectorization techniques, i also created a web app using flet.</p>
+                              
+                              <a href="https://github.com/preranababar9/music-recommendation-system"> 
+                                   <i class="fa-brands fa-github"></i></a><br><br>
+                              <p class="tag">#python  #flet  #machine learning</p>
+                         </div>
+                    </div>
+                    <div class="project">
+                         <img src="proj3.png">
+                         <div class="layer">
+                              <h3>Amazon Clone</h3>
+                              <p>Amazon Clone is build using HTML and CSS with header, main and footer section.
+                               Aims to provide a similar viewing experience as Original Amazon Website .
+                              </p>
+                              
+                              <a href="https://github.com/preranababar9/amazon-clone"> 
+                                   <i class="fa-brands fa-github"></i></a><br><br>
+                              <p class="tag">#html  #css</p>
+                         </div>
+                    </div>
+               </div>
+                   <!--Contact Me--> 
+                   <section class="lastsection">
+                    <!--<h1 class="title1">Contact Me</h1>-->
+                         <div class="contact-left">
+                    
+                              
+                              <h4><i class="fa-solid fa-code"></i></h4> 
+                              <h3>Prerana Babar</h3>
+                              <div class="social-icons">
+               
+                                   <a href="https://github.com/preranababar9"><i class="fa-brands fa-github"></i></a> 
+                              <a href="https://www.linkedin.com/in/prerana-babar-51b89025a"><i class="fa-brands fa-linkedin"></i></a>
+                              <a href=""><i class="fa-solid fa-square-envelope"></i></a>
+                              </div><br><br>
+                              <a href="preranab.cv.pdf" download class="button">Download CV</a>
+                         </div>
+                         <div class="contact-right" id="contact">
+                              <h1>Contact </h1><br>
+                              <form name="submit-to-google-sheet">
+                                   <p>   Your Name</p>
+                                   <input type="text" name="Name" placeholder="Your Name" required>
+                                   <p>Your Email</p>
+                                   <input type="email" name="email" placeholder="Your Email" required>
+                                   <p>Your Message</p>
+                                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                   <button type="submit" class="btn">Sent</button>
+                              </form>
+                              <span id="msg"></span>
+                         </div>
+        </div></section>
+        <footer>
+          <div class="end">
+              <p>Made with <i class="fa-solid fa-heart"></i> by Me</p>
+          </div>
+        </footer>
+     </main>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+     var typed = new Typed('#element', {
+       strings: ['Software Developer Enthusiast', 'Web developer'],
+       typeSpeed: 50,
+     });
+   </script>
+   <script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+          for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+     }
+   </script>
+   <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+          sidemenu.style.right='0';
+     }
+     function closemenu(){
+          sidemenu.style.right='-250px';
+     }
+
+   </script>
+   <script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbw4QtPD1e2XVtEaseoj31S9e2WtYWz5PQ_LDl4KtmP7yOWDDAfVlx5kighD8HjAbDQ/exec'
+     const form = document.forms['submit-to-google-sheet']
+     const msg = document.getElementById("msg")
+   
+     form.addEventListener('submit', e => {
+       e.preventDefault()
+       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+         .then(response => {
+          msg.innerHTML = "Message send Successfully!"
+          setTimeout(function(){
+               msg.innerHTML =""
+          },5000)
+          form.reset()
+         })
+         .catch(error => console.error('Error!', error.message))
+     })
+   </script>
+</body>
+</html>
