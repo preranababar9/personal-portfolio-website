@@ -185,7 +185,7 @@ nav p{
      transition:transform 0.5s;
 }
 .layer{
-     width:61.5%;
+     width:51.5%;
      height:0;
      background:linear-gradient(rgba(0,0,0,0.6), rgb(241, 241, 27));
      border-radius:10px;
