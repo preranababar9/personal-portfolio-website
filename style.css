@@ -376,7 +376,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width:600px){
      .nav{
-                    height:50px;
+                    height:90px;
      }
    nav .fa-solid{
      display:block;
