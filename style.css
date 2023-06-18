@@ -185,7 +185,7 @@ nav p{
      transition:transform 0.5s;
 }
 .layer{
-     width:51.5%;
+     width:61.5%;
      height:0;
      background:linear-gradient(rgba(0,0,0,0.6), rgb(241, 241, 27));
      border-radius:10px;
@@ -204,7 +204,7 @@ nav p{
 
 }
 .layer h3{
-     font-size:18px;
+     font-size:14px;
      font-weight:bold;
      margin-bottom:30px;
      color:white;
@@ -216,7 +216,7 @@ nav p{
      margin-top:20px;
      color:white;
      text-decoration: none;
-     font-size:25px;
+     font-size:20px;
      line-height:60px;
      width:60px;
      height:60px;
@@ -227,7 +227,7 @@ nav p{
 }
 .tag{
      color:rgb(172, 49, 5);
-     font-size:16px;
+     font-size:12px;
      font-weight:bold;
 }
 .project img:hover{
