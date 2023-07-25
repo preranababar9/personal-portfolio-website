@@ -71,14 +71,16 @@ nav p{
     /*flex-direction: column-reverse;*/
 }
 .firstsection > div{
-     width:35%;
+     width:50%;
 }
 .leftsection{
-     font-size:3rem;
+     font-size:3.5rem;
      margin:50px,0;
+      margin-left:80px;
 }
 .rightsection img {
     width:80%;
+      margin-top:5px;
     margin-top:50px;
 }
 /*.rightsection img:hover{
